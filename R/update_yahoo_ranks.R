@@ -1,5 +1,5 @@
 #' @export
-update_yahoo_ranks <- function(gameid = "414", leagueid = NULL, numPlayers = 300) {
+update_yahoo_ranks <- function(gameid = "423", leagueid = NULL, numPlayers = 300) {
   check_token()
 
   plist <- get_player_list(gameid, leagueid, numPlayers)
